@@ -1,0 +1,3 @@
+docker container run -d -p 8080:8080 --name blogs-api blogs-api:1.0
+docker tag <image id> leeban99/blogs-api
+docker push leeban99/blogs-api:1.0
