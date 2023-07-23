@@ -1,4 +1,4 @@
-@Library(build-api-shared-lib@main)
+@Library(build-api-shared-lib)
 
 pipeline {
     agent any
