@@ -1,10 +1,12 @@
+@Library('build-api-shared-lib')
+
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                println "Inside build package..."                
             }
         }
         stage('Test') {
